@@ -1,0 +1,11 @@
+# Core dependencies for the X-ray Explorer GUI.
+#
+# xraylib itself is NOT on PyPI for every platform. Install it with one of:
+#   conda install -c conda-forge xraylib
+#   pip install xraylib            # works where wheels are published
+# See https://github.com/tschoonj/xraylib for platform-specific instructions.
+xraylib>=4.1
+
+PySide6>=6.5
+matplotlib>=3.7
+numpy>=1.24

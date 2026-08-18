@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=X-ray Explorer
+GenericName=X-ray Physics Data Browser
+Comment=Browse, tabulate and plot the xraylib X-ray physics database
+Exec=XrayExplorer
+Icon=xray-explorer
+Terminal=false
+Categories=Science;Physics;Education;
+Keywords=xray;xraylib;physics;attenuation;fluorescence;crystallography;spectroscopy;
+StartupNotify=true
+StartupWMClass=XrayExplorer

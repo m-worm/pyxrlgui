@@ -1,0 +1,13 @@
+# Normalize line endings in the repository: LF in git, native in the working tree.
+* text=auto
+
+*.py   text diff=python
+*.md   text
+*.txt  text
+*.iss  text eol=crlf
+*.spec text
+
+*.png  binary
+*.ico  binary
+*.icns binary
+*.pdf  binary
